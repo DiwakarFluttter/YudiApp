@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		081FD732BB3923769054F6597F74A741 /* Pods-YudiApp-YudiAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B421C54FCE8481E8D14CEE457E85DACD /* Pods-YudiApp-YudiAppUITests-dummy.m */; };
+		1E6F9DEA535E38E35D7662116FBCA783 /* Pods-YudiAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A91B159672D17BECF0DA8A615CC5B3E /* Pods-YudiAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DA9699D5DA105401A57345BFCBE291 /* Pods-YudiApp-YudiAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EAC30592A28CBB13377B4F790D2209 /* Pods-YudiApp-YudiAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34ECA0A4E56FAFDD432CA2F082277665 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		44457BDCA8EF93B43B28BCF492A7B863 /* Pods-YudiApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276B94E87CC74B192F5141CD80A56140 /* Pods-YudiApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A478804575C27C6FCDFD00ECAC8CFEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C3920107B3B30704A1EA0D31523467C5 /* Pods-YudiApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D120E0BDB1ED9A321D2DB2253FABF1D8 /* Pods-YudiApp-dummy.m */; };
+		E75F71769CE1E993F00941378BAFE890 /* Pods-YudiAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D57CEB1D71B7C67DD4E82E223B5592F /* Pods-YudiAppTests-dummy.m */; };
+		F3F9F83262C45A0002F14B9073A2E2A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A6F722B374A3E1FACDDCF77D9FC9816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		BF09F0C8D85E2F2AA342FDCE4EA98C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		D1DD62461F0B54ED43ED60A382FA4C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199261EF4D407317678E9D81176B9E66;
+			remoteInfo = "Pods-YudiApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		08C73D385B97DF9107B8F4306E1BBB71 /* Pods-YudiApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YudiApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A91B159672D17BECF0DA8A615CC5B3E /* Pods-YudiAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YudiAppTests-umbrella.h"; sourceTree = "<group>"; };
+		1D57CEB1D71B7C67DD4E82E223B5592F /* Pods-YudiAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YudiAppTests-dummy.m"; sourceTree = "<group>"; };
+		1E3C5CEB9D21195320AE56CEDFB5D3DE /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiApp-YudiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24ED81494AE0A2F58E024EAAF00251BC /* Pods-YudiApp-YudiAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YudiApp-YudiAppUITests.modulemap"; sourceTree = "<group>"; };
+		276B94E87CC74B192F5141CD80A56140 /* Pods-YudiApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YudiApp-umbrella.h"; sourceTree = "<group>"; };
+		2BDED4A3FD422150261D48211CFCFE67 /* Pods-YudiApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		376332C3AB7C073D3A7044561DC8FBEE /* Pods-YudiAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiAppTests-Info.plist"; sourceTree = "<group>"; };
+		38EAC30592A28CBB13377B4F790D2209 /* Pods-YudiApp-YudiAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YudiApp-YudiAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		3C71B32F525098172A86E8722C9F135B /* Pods-YudiApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiApp-Info.plist"; sourceTree = "<group>"; };
+		5127FEFF730D6487B664CA10BAC27602 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiApp-YudiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		51AF8D1B75590F2E724B3A51AF09EEA7 /* Pods-YudiApp-YudiAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YudiApp-YudiAppUITests-resources.sh"; sourceTree = "<group>"; };
+		66B4CBA94E637B4BB5D94EDE4B4D4679 /* Pods-YudiAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YudiAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77B5601EDC18CA798EA465F03AAD8689 /* Pods-YudiApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YudiApp.modulemap"; sourceTree = "<group>"; };
+		7D82C96F1CD63A1008E8A23F98336AE0 /* Pods-YudiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiApp.release.xcconfig"; sourceTree = "<group>"; };
+		82410418D4593880A33DE00B90191CA1 /* Pods_YudiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YudiApp.framework; path = "Pods-YudiApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DA2145417579B31085692DFC4DC4A2 /* Pods-YudiApp-YudiAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YudiApp-YudiAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99D90E00C8AC3301CFBEB0510D827182 /* Pods_YudiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YudiAppTests.framework; path = "Pods-YudiAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7042D913173A4A76AC17D70DB1C209C /* Pods-YudiApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YudiApp-resources.sh"; sourceTree = "<group>"; };
+		AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		ABDDB1CFA4A1491C43393ECEE7403DBC /* Pods-YudiAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF8CD6B970F917AED19C02FC07E6F90C /* Pods-YudiApp-YudiAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiApp-YudiAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B421C54FCE8481E8D14CEE457E85DACD /* Pods-YudiApp-YudiAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YudiApp-YudiAppUITests-dummy.m"; sourceTree = "<group>"; };
+		B7327F77AFCAB98102C50D251A5A9B61 /* Pods-YudiApp-YudiAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YudiApp-YudiAppUITests-Info.plist"; sourceTree = "<group>"; };
+		C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		C5278CEA1CF5EFE68C72DB75EBAA5DAB /* Pods_YudiApp_YudiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YudiApp_YudiAppUITests.framework; path = "Pods-YudiApp-YudiAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8A3561C14EE3E22A14EE6C47392139 /* Pods-YudiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D120E0BDB1ED9A321D2DB2253FABF1D8 /* Pods-YudiApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YudiApp-dummy.m"; sourceTree = "<group>"; };
+		E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		EA0CA1A136108785CBA4532FAB088803 /* Pods-YudiAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YudiAppTests.modulemap"; sourceTree = "<group>"; };
+		F2B5A33AC8B51AE1D48A06655DF1E9F2 /* Pods-YudiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1758C5E273FFA671D98F85A40EDCCF /* Pods-YudiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YudiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		079A7C73F2177533A2FD99ED4DB52C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A478804575C27C6FCDFD00ECAC8CFEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63F107345C74727620881DC9A691D11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F9F83262C45A0002F14B9073A2E2A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C212C67C234019886F21ABE63DDCE2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ECA0A4E56FAFDD432CA2F082277665 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC553E82707BA26B1F6EDC00161B0D /* Base */,
+				387015716759109261086A8C0CA736F5 /* Maps */,
+				9601491F11C5653D98D1EB5DF2155DFE /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		387015716759109261086A8C0CA736F5 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */,
+				E48211C21EA696EBC32B31525F5FFA67 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		472A5788B0513C88DFD3FA764ADEFFB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FDF8881672531E2DE2F1CE0B3905E19 /* Pods-YudiApp */,
+				6BEE6FBDADD42C81E6725CDAD6C28559 /* Pods-YudiApp-YudiAppUITests */,
+				88FF6EB1F7F1C7523E8342B64DF099D4 /* Pods-YudiAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BBC277892DB50270A3A25E53B2DFCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82410418D4593880A33DE00B90191CA1 /* Pods_YudiApp.framework */,
+				C5278CEA1CF5EFE68C72DB75EBAA5DAB /* Pods_YudiApp_YudiAppUITests.framework */,
+				99D90E00C8AC3301CFBEB0510D827182 /* Pods_YudiAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FCC553E82707BA26B1F6EDC00161B0D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		6BEE6FBDADD42C81E6725CDAD6C28559 /* Pods-YudiApp-YudiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24ED81494AE0A2F58E024EAAF00251BC /* Pods-YudiApp-YudiAppUITests.modulemap */,
+				92DA2145417579B31085692DFC4DC4A2 /* Pods-YudiApp-YudiAppUITests-acknowledgements.markdown */,
+				AF8CD6B970F917AED19C02FC07E6F90C /* Pods-YudiApp-YudiAppUITests-acknowledgements.plist */,
+				B421C54FCE8481E8D14CEE457E85DACD /* Pods-YudiApp-YudiAppUITests-dummy.m */,
+				B7327F77AFCAB98102C50D251A5A9B61 /* Pods-YudiApp-YudiAppUITests-Info.plist */,
+				51AF8D1B75590F2E724B3A51AF09EEA7 /* Pods-YudiApp-YudiAppUITests-resources.sh */,
+				38EAC30592A28CBB13377B4F790D2209 /* Pods-YudiApp-YudiAppUITests-umbrella.h */,
+				1E3C5CEB9D21195320AE56CEDFB5D3DE /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */,
+				5127FEFF730D6487B664CA10BAC27602 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */,
+			);
+			name = "Pods-YudiApp-YudiAppUITests";
+			path = "Target Support Files/Pods-YudiApp-YudiAppUITests";
+			sourceTree = "<group>";
+		};
+		88FF6EB1F7F1C7523E8342B64DF099D4 /* Pods-YudiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CA1A136108785CBA4532FAB088803 /* Pods-YudiAppTests.modulemap */,
+				66B4CBA94E637B4BB5D94EDE4B4D4679 /* Pods-YudiAppTests-acknowledgements.markdown */,
+				ABDDB1CFA4A1491C43393ECEE7403DBC /* Pods-YudiAppTests-acknowledgements.plist */,
+				1D57CEB1D71B7C67DD4E82E223B5592F /* Pods-YudiAppTests-dummy.m */,
+				376332C3AB7C073D3A7044561DC8FBEE /* Pods-YudiAppTests-Info.plist */,
+				1A91B159672D17BECF0DA8A615CC5B3E /* Pods-YudiAppTests-umbrella.h */,
+				CC8A3561C14EE3E22A14EE6C47392139 /* Pods-YudiAppTests.debug.xcconfig */,
+				FD1758C5E273FFA671D98F85A40EDCCF /* Pods-YudiAppTests.release.xcconfig */,
+			);
+			name = "Pods-YudiAppTests";
+			path = "Target Support Files/Pods-YudiAppTests";
+			sourceTree = "<group>";
+		};
+		9601491F11C5653D98D1EB5DF2155DFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */,
+				C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		9FDF8881672531E2DE2F1CE0B3905E19 /* Pods-YudiApp */ = {
+			isa = PBXGroup;
+			children = (
+				77B5601EDC18CA798EA465F03AAD8689 /* Pods-YudiApp.modulemap */,
+				08C73D385B97DF9107B8F4306E1BBB71 /* Pods-YudiApp-acknowledgements.markdown */,
+				2BDED4A3FD422150261D48211CFCFE67 /* Pods-YudiApp-acknowledgements.plist */,
+				D120E0BDB1ED9A321D2DB2253FABF1D8 /* Pods-YudiApp-dummy.m */,
+				3C71B32F525098172A86E8722C9F135B /* Pods-YudiApp-Info.plist */,
+				A7042D913173A4A76AC17D70DB1C209C /* Pods-YudiApp-resources.sh */,
+				276B94E87CC74B192F5141CD80A56140 /* Pods-YudiApp-umbrella.h */,
+				F2B5A33AC8B51AE1D48A06655DF1E9F2 /* Pods-YudiApp.debug.xcconfig */,
+				7D82C96F1CD63A1008E8A23F98336AE0 /* Pods-YudiApp.release.xcconfig */,
+			);
+			name = "Pods-YudiApp";
+			path = "Target Support Files/Pods-YudiApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				5BBC277892DB50270A3A25E53B2DFCF4 /* Products */,
+				472A5788B0513C88DFD3FA764ADEFFB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E48211C21EA696EBC32B31525F5FFA67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */,
+				E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2428BB0BB81E40488A47A97E5B0ECAFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44457BDCA8EF93B43B28BCF492A7B863 /* Pods-YudiApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC3316203C7F6B3673B399DC72C7B48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6F9DEA535E38E35D7662116FBCA783 /* Pods-YudiAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98AC4FA0AC1AE6FEFDCF433FAF71579C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DA9699D5DA105401A57345BFCBE291 /* Pods-YudiApp-YudiAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		199261EF4D407317678E9D81176B9E66 /* Pods-YudiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF60D0FD65B25D853420852A780D8722 /* Build configuration list for PBXNativeTarget "Pods-YudiApp" */;
+			buildPhases = (
+				2428BB0BB81E40488A47A97E5B0ECAFB /* Headers */,
+				DB9A9976157D2FD45D9A8E30280A1784 /* Sources */,
+				63F107345C74727620881DC9A691D11B /* Frameworks */,
+				F2EC1DA6AFB59C4398D03D91B95B24F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461F459297A680DDF3197303949B5BEB /* PBXTargetDependency */,
+			);
+			name = "Pods-YudiApp";
+			productName = "Pods-YudiApp";
+			productReference = 82410418D4593880A33DE00B90191CA1 /* Pods_YudiApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD9F52B11D62F3B5A2ED218648A95F8F /* Pods-YudiApp-YudiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D19186917498E530192898136C6E56 /* Build configuration list for PBXNativeTarget "Pods-YudiApp-YudiAppUITests" */;
+			buildPhases = (
+				98AC4FA0AC1AE6FEFDCF433FAF71579C /* Headers */,
+				C8A201E070C608A222342278453019C8 /* Sources */,
+				C212C67C234019886F21ABE63DDCE2A9 /* Frameworks */,
+				C5EBE4BA63A62940B2D7B5874174F3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1CB267BCA88CAE0F344166AC0F0C9DB /* PBXTargetDependency */,
+			);
+			name = "Pods-YudiApp-YudiAppUITests";
+			productName = "Pods-YudiApp-YudiAppUITests";
+			productReference = C5278CEA1CF5EFE68C72DB75EBAA5DAB /* Pods_YudiApp_YudiAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2D9DB46BC6D4DBB03FA930FE8ECE959 /* Pods-YudiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D5F6DBE9407CF5336317FEDC554EFA /* Build configuration list for PBXNativeTarget "Pods-YudiAppTests" */;
+			buildPhases = (
+				7DC3316203C7F6B3673B399DC72C7B48 /* Headers */,
+				A24582C51A89B34AB00A96CA69CC1418 /* Sources */,
+				079A7C73F2177533A2FD99ED4DB52C22 /* Frameworks */,
+				2E746F1E5AD70478ED7B0288B34B78A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F60CD39BCBFFDEE7087EABDA1B3D4BC /* PBXTargetDependency */,
+			);
+			name = "Pods-YudiAppTests";
+			productName = "Pods-YudiAppTests";
+			productReference = 99D90E00C8AC3301CFBEB0510D827182 /* Pods_YudiAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5BBC277892DB50270A3A25E53B2DFCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				199261EF4D407317678E9D81176B9E66 /* Pods-YudiApp */,
+				BD9F52B11D62F3B5A2ED218648A95F8F /* Pods-YudiApp-YudiAppUITests */,
+				F2D9DB46BC6D4DBB03FA930FE8ECE959 /* Pods-YudiAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E746F1E5AD70478ED7B0288B34B78A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EBE4BA63A62940B2D7B5874174F3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EC1DA6AFB59C4398D03D91B95B24F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24582C51A89B34AB00A96CA69CC1418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75F71769CE1E993F00941378BAFE890 /* Pods-YudiAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A201E070C608A222342278453019C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081FD732BB3923769054F6597F74A741 /* Pods-YudiApp-YudiAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9A9976157D2FD45D9A8E30280A1784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3920107B3B30704A1EA0D31523467C5 /* Pods-YudiApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461F459297A680DDF3197303949B5BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = BF09F0C8D85E2F2AA342FDCE4EA98C4E /* PBXContainerItemProxy */;
+		};
+		5F60CD39BCBFFDEE7087EABDA1B3D4BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YudiApp";
+			target = 199261EF4D407317678E9D81176B9E66 /* Pods-YudiApp */;
+			targetProxy = D1DD62461F0B54ED43ED60A382FA4C22 /* PBXContainerItemProxy */;
+		};
+		B1CB267BCA88CAE0F344166AC0F0C9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 2A6F722B374A3E1FACDDCF77D9FC9816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E30BC4B02A3481D66ACFD52221656D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D82C96F1CD63A1008E8A23F98336AE0 /* Pods-YudiApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiApp/Pods-YudiApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiApp/Pods-YudiApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		575413D6E41514811CA3C02E8AC0472A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B5A33AC8B51AE1D48A06655DF1E9F2 /* Pods-YudiApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiApp/Pods-YudiApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiApp/Pods-YudiApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5834AEB702FC0743E58BBE60D611434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67B107ED17C6C18DC4B8B4D3356E049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B43FCA9C9A7F06D441F1A28AA59BB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1758C5E273FFA671D98F85A40EDCCF /* Pods-YudiAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D70D5EE91D260D3553CB7F44281F9A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5127FEFF730D6487B664CA10BAC27602 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADB2053B269D30E59D17E233FE141E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3C5CEB9D21195320AE56CEDFB5D3DE /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECE2749AC9AEC9C6D8232328F5100852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC8A3561C14EE3E22A14EE6C47392139 /* Pods-YudiAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D5F6DBE9407CF5336317FEDC554EFA /* Build configuration list for PBXNativeTarget "Pods-YudiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE2749AC9AEC9C6D8232328F5100852 /* Debug */,
+				7B43FCA9C9A7F06D441F1A28AA59BB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834AEB702FC0743E58BBE60D611434A /* Debug */,
+				67B107ED17C6C18DC4B8B4D3356E049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D19186917498E530192898136C6E56 /* Build configuration list for PBXNativeTarget "Pods-YudiApp-YudiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB2053B269D30E59D17E233FE141E97 /* Debug */,
+				9D70D5EE91D260D3553CB7F44281F9A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF60D0FD65B25D853420852A780D8722 /* Build configuration list for PBXNativeTarget "Pods-YudiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575413D6E41514811CA3C02E8AC0472A /* Debug */,
+				4E30BC4B02A3481D66ACFD52221656D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

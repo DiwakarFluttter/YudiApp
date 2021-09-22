@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BBCBA61E509F5C0C1B9EAAF /* Pods_YudiApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28C622CE822C5DFFAC41BD3 /* Pods_YudiApp.framework */; };
+		198583DADA1E5C71D63E7766 /* Pods_YudiAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854F6DE1753B6FE1C068D2B0 /* Pods_YudiAppTests.framework */; };
+		503DF9550C6F3C4AD41EFBEA /* Pods_YudiApp_YudiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717C0A5B6EBE0824A46FD7D7 /* Pods_YudiApp_YudiAppUITests.framework */; };
+		5E087F2E26FB18C8004ABE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */; };
+		5E087F3026FB18C8004ABE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */; };
+		5E087F3226FB18C8004ABE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F3126FB18C8004ABE2A /* ViewController.swift */; };
+		5E087F3526FB18C8004ABE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3326FB18C8004ABE2A /* Main.storyboard */; };
+		5E087F3726FB18CA004ABE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3626FB18CA004ABE2A /* Assets.xcassets */; };
+		5E087F3A26FB18CA004ABE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3826FB18CA004ABE2A /* LaunchScreen.storyboard */; };
+		5E087F4526FB18CA004ABE2A /* YudiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F4426FB18CA004ABE2A /* YudiAppTests.swift */; };
+		5E087F5026FB18CA004ABE2A /* YudiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F4F26FB18CA004ABE2A /* YudiAppUITests.swift */; };
+		5E087F6126FB1916004ABE2A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F6026FB1916004ABE2A /* MapViewController.swift */; };
+		5E087F7126FB232F004ABE2A /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F7026FB232E004ABE2A /* LocationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E087F4126FB18CA004ABE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E087F2226FB18C8004ABE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E087F2926FB18C8004ABE2A;
+			remoteInfo = YudiApp;
+		};
+		5E087F4C26FB18CA004ABE2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E087F2226FB18C8004ABE2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E087F2926FB18C8004ABE2A;
+			remoteInfo = YudiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C66AB1046D77B59C7C683BD /* Pods-YudiApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiApp.release.xcconfig"; path = "Target Support Files/Pods-YudiApp/Pods-YudiApp.release.xcconfig"; sourceTree = "<group>"; };
+		5E087F2A26FB18C8004ABE2A /* YudiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YudiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E087F3126FB18C8004ABE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E087F3426FB18C8004ABE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E087F3626FB18CA004ABE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E087F3926FB18CA004ABE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E087F3B26FB18CA004ABE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E087F4026FB18CA004ABE2A /* YudiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YudiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E087F4426FB18CA004ABE2A /* YudiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YudiAppTests.swift; sourceTree = "<group>"; };
+		5E087F4626FB18CA004ABE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E087F4B26FB18CA004ABE2A /* YudiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YudiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E087F4F26FB18CA004ABE2A /* YudiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YudiAppUITests.swift; sourceTree = "<group>"; };
+		5E087F5126FB18CA004ABE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E087F6026FB1916004ABE2A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5E087F7026FB232E004ABE2A /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		5E66AE71138C142AC2957C84 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiApp-YudiAppUITests.release.xcconfig"; path = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F69FC952A50A2D9E703FF46 /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiApp-YudiAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70443ED95225D1672161C91D /* Pods-YudiAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiAppTests.debug.xcconfig"; path = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		717C0A5B6EBE0824A46FD7D7 /* Pods_YudiApp_YudiAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YudiApp_YudiAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		854F6DE1753B6FE1C068D2B0 /* Pods_YudiAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YudiAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28C622CE822C5DFFAC41BD3 /* Pods_YudiApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YudiApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF4A742B408953CA4D85CA2 /* Pods-YudiAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiAppTests.release.xcconfig"; path = "Target Support Files/Pods-YudiAppTests/Pods-YudiAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F800ADB76A35B5C113D77ADA /* Pods-YudiApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YudiApp.debug.xcconfig"; path = "Target Support Files/Pods-YudiApp/Pods-YudiApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E087F2726FB18C8004ABE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BBCBA61E509F5C0C1B9EAAF /* Pods_YudiApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F3D26FB18CA004ABE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198583DADA1E5C71D63E7766 /* Pods_YudiAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F4826FB18CA004ABE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503DF9550C6F3C4AD41EFBEA /* Pods_YudiApp_YudiAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3D5E00C245EB5AF0E5CAB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F800ADB76A35B5C113D77ADA /* Pods-YudiApp.debug.xcconfig */,
+				0C66AB1046D77B59C7C683BD /* Pods-YudiApp.release.xcconfig */,
+				6F69FC952A50A2D9E703FF46 /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */,
+				5E66AE71138C142AC2957C84 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */,
+				70443ED95225D1672161C91D /* Pods-YudiAppTests.debug.xcconfig */,
+				AFF4A742B408953CA4D85CA2 /* Pods-YudiAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E087F2126FB18C8004ABE2A = {
+			isa = PBXGroup;
+			children = (
+				5E087F2C26FB18C8004ABE2A /* YudiApp */,
+				5E087F4326FB18CA004ABE2A /* YudiAppTests */,
+				5E087F4E26FB18CA004ABE2A /* YudiAppUITests */,
+				5E087F2B26FB18C8004ABE2A /* Products */,
+				0A3D5E00C245EB5AF0E5CAB1 /* Pods */,
+				90458D3840BCF1801259B84F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E087F2B26FB18C8004ABE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E087F2A26FB18C8004ABE2A /* YudiApp.app */,
+				5E087F4026FB18CA004ABE2A /* YudiAppTests.xctest */,
+				5E087F4B26FB18CA004ABE2A /* YudiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E087F2C26FB18C8004ABE2A /* YudiApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E087F6F26FB2321004ABE2A /* Services */,
+				5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */,
+				5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */,
+				5E087F3126FB18C8004ABE2A /* ViewController.swift */,
+				5E087F3326FB18C8004ABE2A /* Main.storyboard */,
+				5E087F3626FB18CA004ABE2A /* Assets.xcassets */,
+				5E087F3826FB18CA004ABE2A /* LaunchScreen.storyboard */,
+				5E087F3B26FB18CA004ABE2A /* Info.plist */,
+				5E087F6026FB1916004ABE2A /* MapViewController.swift */,
+			);
+			path = YudiApp;
+			sourceTree = "<group>";
+		};
+		5E087F4326FB18CA004ABE2A /* YudiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E087F4426FB18CA004ABE2A /* YudiAppTests.swift */,
+				5E087F4626FB18CA004ABE2A /* Info.plist */,
+			);
+			path = YudiAppTests;
+			sourceTree = "<group>";
+		};
+		5E087F4E26FB18CA004ABE2A /* YudiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E087F4F26FB18CA004ABE2A /* YudiAppUITests.swift */,
+				5E087F5126FB18CA004ABE2A /* Info.plist */,
+			);
+			path = YudiAppUITests;
+			sourceTree = "<group>";
+		};
+		5E087F6F26FB2321004ABE2A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E087F7026FB232E004ABE2A /* LocationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90458D3840BCF1801259B84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28C622CE822C5DFFAC41BD3 /* Pods_YudiApp.framework */,
+				717C0A5B6EBE0824A46FD7D7 /* Pods_YudiApp_YudiAppUITests.framework */,
+				854F6DE1753B6FE1C068D2B0 /* Pods_YudiAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E087F2926FB18C8004ABE2A /* YudiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E087F5426FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiApp" */;
+			buildPhases = (
+				E4FFA41DEB9ECE1513DFCE1E /* [CP] Check Pods Manifest.lock */,
+				5E087F2626FB18C8004ABE2A /* Sources */,
+				5E087F2726FB18C8004ABE2A /* Frameworks */,
+				5E087F2826FB18C8004ABE2A /* Resources */,
+				E764C8BEAE311AD33DA1D34A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YudiApp;
+			productName = YudiApp;
+			productReference = 5E087F2A26FB18C8004ABE2A /* YudiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E087F3F26FB18CA004ABE2A /* YudiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E087F5726FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiAppTests" */;
+			buildPhases = (
+				288AB43FDF87004FA33BE648 /* [CP] Check Pods Manifest.lock */,
+				5E087F3C26FB18CA004ABE2A /* Sources */,
+				5E087F3D26FB18CA004ABE2A /* Frameworks */,
+				5E087F3E26FB18CA004ABE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E087F4226FB18CA004ABE2A /* PBXTargetDependency */,
+			);
+			name = YudiAppTests;
+			productName = YudiAppTests;
+			productReference = 5E087F4026FB18CA004ABE2A /* YudiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E087F4A26FB18CA004ABE2A /* YudiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E087F5A26FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiAppUITests" */;
+			buildPhases = (
+				7A775D8A180E8D790FEF9066 /* [CP] Check Pods Manifest.lock */,
+				5E087F4726FB18CA004ABE2A /* Sources */,
+				5E087F4826FB18CA004ABE2A /* Frameworks */,
+				5E087F4926FB18CA004ABE2A /* Resources */,
+				6307F5BE52C362F27F61E5A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E087F4D26FB18CA004ABE2A /* PBXTargetDependency */,
+			);
+			name = YudiAppUITests;
+			productName = YudiAppUITests;
+			productReference = 5E087F4B26FB18CA004ABE2A /* YudiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E087F2226FB18C8004ABE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5E087F2926FB18C8004ABE2A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5E087F3F26FB18CA004ABE2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5E087F2926FB18C8004ABE2A;
+					};
+					5E087F4A26FB18CA004ABE2A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5E087F2926FB18C8004ABE2A;
+					};
+				};
+			};
+			buildConfigurationList = 5E087F2526FB18C8004ABE2A /* Build configuration list for PBXProject "YudiApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E087F2126FB18C8004ABE2A;
+			productRefGroup = 5E087F2B26FB18C8004ABE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E087F2926FB18C8004ABE2A /* YudiApp */,
+				5E087F3F26FB18CA004ABE2A /* YudiAppTests */,
+				5E087F4A26FB18CA004ABE2A /* YudiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E087F2826FB18C8004ABE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E087F3A26FB18CA004ABE2A /* LaunchScreen.storyboard in Resources */,
+				5E087F3726FB18CA004ABE2A /* Assets.xcassets in Resources */,
+				5E087F3526FB18C8004ABE2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F3E26FB18CA004ABE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F4926FB18CA004ABE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		288AB43FDF87004FA33BE648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YudiAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6307F5BE52C362F27F61E5A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YudiApp-YudiAppUITests/Pods-YudiApp-YudiAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A775D8A180E8D790FEF9066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YudiApp-YudiAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4FFA41DEB9ECE1513DFCE1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YudiApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E764C8BEAE311AD33DA1D34A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YudiApp/Pods-YudiApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YudiApp/Pods-YudiApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YudiApp/Pods-YudiApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E087F2626FB18C8004ABE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E087F3226FB18C8004ABE2A /* ViewController.swift in Sources */,
+				5E087F2E26FB18C8004ABE2A /* AppDelegate.swift in Sources */,
+				5E087F7126FB232F004ABE2A /* LocationService.swift in Sources */,
+				5E087F3026FB18C8004ABE2A /* SceneDelegate.swift in Sources */,
+				5E087F6126FB1916004ABE2A /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F3C26FB18CA004ABE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E087F4526FB18CA004ABE2A /* YudiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E087F4726FB18CA004ABE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E087F5026FB18CA004ABE2A /* YudiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E087F4226FB18CA004ABE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E087F2926FB18C8004ABE2A /* YudiApp */;
+			targetProxy = 5E087F4126FB18CA004ABE2A /* PBXContainerItemProxy */;
+		};
+		5E087F4D26FB18CA004ABE2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E087F2926FB18C8004ABE2A /* YudiApp */;
+			targetProxy = 5E087F4C26FB18CA004ABE2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E087F3326FB18C8004ABE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E087F3426FB18C8004ABE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E087F3826FB18CA004ABE2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E087F3926FB18CA004ABE2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E087F5226FB18CA004ABE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E087F5326FB18CA004ABE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E087F5526FB18CA004ABE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F800ADB76A35B5C113D77ADA /* Pods-YudiApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E087F5626FB18CA004ABE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C66AB1046D77B59C7C683BD /* Pods-YudiApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E087F5826FB18CA004ABE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70443ED95225D1672161C91D /* Pods-YudiAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YudiApp.app/YudiApp";
+			};
+			name = Debug;
+		};
+		5E087F5926FB18CA004ABE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF4A742B408953CA4D85CA2 /* Pods-YudiAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YudiApp.app/YudiApp";
+			};
+			name = Release;
+		};
+		5E087F5B26FB18CA004ABE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F69FC952A50A2D9E703FF46 /* Pods-YudiApp-YudiAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YudiApp;
+			};
+			name = Debug;
+		};
+		5E087F5C26FB18CA004ABE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E66AE71138C142AC2957C84 /* Pods-YudiApp-YudiAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YudiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YudiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E087F2526FB18C8004ABE2A /* Build configuration list for PBXProject "YudiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E087F5226FB18CA004ABE2A /* Debug */,
+				5E087F5326FB18CA004ABE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E087F5426FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E087F5526FB18CA004ABE2A /* Debug */,
+				5E087F5626FB18CA004ABE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E087F5726FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E087F5826FB18CA004ABE2A /* Debug */,
+				5E087F5926FB18CA004ABE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E087F5A26FB18CA004ABE2A /* Build configuration list for PBXNativeTarget "YudiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E087F5B26FB18CA004ABE2A /* Debug */,
+				5E087F5C26FB18CA004ABE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E087F2226FB18C8004ABE2A /* Project object */;
+}
