@@ -12,7 +12,6 @@
 		503DF9550C6F3C4AD41EFBEA /* Pods_YudiApp_YudiAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717C0A5B6EBE0824A46FD7D7 /* Pods_YudiApp_YudiAppUITests.framework */; };
 		5E087F2E26FB18C8004ABE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */; };
 		5E087F3026FB18C8004ABE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */; };
-		5E087F3226FB18C8004ABE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E087F3126FB18C8004ABE2A /* ViewController.swift */; };
 		5E087F3526FB18C8004ABE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3326FB18C8004ABE2A /* Main.storyboard */; };
 		5E087F3726FB18CA004ABE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3626FB18CA004ABE2A /* Assets.xcassets */; };
 		5E087F3A26FB18CA004ABE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E087F3826FB18CA004ABE2A /* LaunchScreen.storyboard */; };
@@ -44,7 +43,6 @@
 		5E087F2A26FB18C8004ABE2A /* YudiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YudiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E087F3126FB18C8004ABE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E087F3426FB18C8004ABE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E087F3626FB18CA004ABE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E087F3926FB18CA004ABE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +134,6 @@
 				5E087F6F26FB2321004ABE2A /* Services */,
 				5E087F2D26FB18C8004ABE2A /* AppDelegate.swift */,
 				5E087F2F26FB18C8004ABE2A /* SceneDelegate.swift */,
-				5E087F3126FB18C8004ABE2A /* ViewController.swift */,
 				5E087F3326FB18C8004ABE2A /* Main.storyboard */,
 				5E087F3626FB18CA004ABE2A /* Assets.xcassets */,
 				5E087F3826FB18CA004ABE2A /* LaunchScreen.storyboard */,
@@ -420,7 +417,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E087F3226FB18C8004ABE2A /* ViewController.swift in Sources */,
 				5E087F2E26FB18C8004ABE2A /* AppDelegate.swift in Sources */,
 				5E087F7126FB232F004ABE2A /* LocationService.swift in Sources */,
 				5E087F3026FB18C8004ABE2A /* SceneDelegate.swift in Sources */,
@@ -607,7 +603,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracking.YudiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -626,7 +622,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wwt.YudiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tracking.YudiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

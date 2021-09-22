@@ -18,21 +18,19 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>App uses location when app is open to show ur details on app</string>
-
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>App uses location when app is open to show ur details on app</string>
-
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>App uses location when app is open to show ur details on app</string>
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>googlechromes</string>
-        <string>comgooglemaps</string>
-    </array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App uses location when app is open to show ur details on app</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>App uses location when app is open to show ur details on app</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>App uses location when app is open to show ur details on app</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

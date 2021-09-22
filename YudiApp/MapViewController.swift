@@ -1,10 +1,3 @@
-//
-//  MapViewController.swift
-//  YudiApp
-//
-//  Created by Divakar Reddy on 22/09/21.
-//
-
 import UIKit
 import MapKit
 import GoogleMaps
@@ -35,13 +28,13 @@ class MapViewController: UIViewController {
         }
     }
     func configureGoogleMaps() {
-      
+        
         gMapView = GMSMapView(frame: self.view.frame)
         self.view.addSubview(gMapView)
         gMapView.isMyLocationEnabled = true
         gMapView.settings.myLocationButton = true
-
-
+        
+        
         
     }
     func updateCameraPosition(location: MyLocation) {

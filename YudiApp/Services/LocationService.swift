@@ -74,9 +74,7 @@ extension LocationService: CLLocationManagerDelegate {
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         newLocation?(.failure(error))
-        manager.stopUpdatingLocation()
-        manager.stopUpdatingLocation()
-        
+        manager.stopUpdatingLocation()        
     }
     
 }

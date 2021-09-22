@@ -1,9 +1,3 @@
-//
-//  YudiAppUITests.swift
-//  YudiAppUITests
-//
-//  Created by Divakar Reddy on 22/09/21.
-//
 
 import XCTest
 
