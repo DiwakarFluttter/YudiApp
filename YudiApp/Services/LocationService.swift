@@ -12,14 +12,15 @@ final class LocationService: NSObject {
         super.init()
         manager.delegate = self
     }
-    var newLocation: ((Result<MyLocation>) -> Void)?
+    var newLocation: ((Result<Address>) -> Void)?
+    var permissionForLocationDenied: (() -> Void)?
+
     var didChangeStatus: ((Bool) -> Void)?
     var status: CLAuthorizationStatus {
         return manager.authorizationStatus
     }
     
     func  requestLocationAuthorization() {
-        manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.requestWhenInUseAuthorization()
         if CLLocationManager.locationServicesEnabled() {
@@ -32,7 +33,7 @@ final class LocationService: NSObject {
     deinit {
         manager.stopUpdatingLocation()
     }
-    func fetchGeoLocationDetails(location: CLLocation) {
+    func translateLocationIntoAddress(location: CLLocation) {
         CLGeocoder().reverseGeocodeLocation(location, completionHandler: {(placemarks, error) -> Void in
             if error != nil {
                 print("Reverse geocoder failed with error" + (error?.localizedDescription)!)
@@ -49,36 +50,39 @@ final class LocationService: NSObject {
                                 placemark.subThoroughfare,
                                 placemark.country].compactMap { $0 }.joined(separator: ", ")
             print(outputString)
-            let location =  MyLocation(title: placemark.locality , description: outputString, coordinate: placemark.location?.coordinate)
+            let location =  Address(title: placemark.locality , description: outputString, coordinate: placemark.location?.coordinate)
             self.newLocation?(.success(location))
         })
     }
     
 }
 extension LocationService: CLLocationManagerDelegate {
+    func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
+        switch manager.authorizationStatus {
+        case .authorizedWhenInUse:
+            print("Authorized")
+            manager.requestLocation()
+        case .denied:
+            permissionForLocationDenied?()
+            print("Denied")
+        default:
+            manager.requestWhenInUseAuthorization()
+        }
+    }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         if let location = locations.sorted(by: {$0.timestamp > $1.timestamp}).first {
             //            newLocation?(.success(location))
-            fetchGeoLocationDetails(location: location)
+            translateLocationIntoAddress(location: location)
         }
         manager.stopUpdatingLocation()
     }
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        switch status {
-        case .notDetermined, .restricted, .denied:
-            didChangeStatus?(false)
-        default:
-            didChangeStatus?(true)
-        }
-        
-    }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         newLocation?(.failure(error))
-        manager.stopUpdatingLocation()        
+        manager.stopUpdatingLocation()
     }
     
 }
 
-struct MyLocation {
+struct Address {
     var title: String?, description: String, coordinate: CLLocationCoordinate2D?
 }
